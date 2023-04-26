@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image" href="./images/Logo-pata.webp">
+    <script src="https://kit.fontawesome.com/5f222cc947.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <title>GeekTune</title>
+</head>
+
+<body onload="cambiarImagen()">
+    <header class="header">
+        <nav class="nav">
+            <a href="https://alexrdgz.github.io/InteraccionMedios.github.io/">
+                <img src="./images/geektune.jpg" class="logo nav-link"></a>
+            <button class="nav-toggle" aria-label="abrir menu"><i class="fa-solid fa-bars"
+                    style="color: #000000;"></i></button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link nav-menu_link-home"
+                        href="https://alexrdgz.github.io/InteraccionMedios.github.io/">Inicio</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link players" href="./player.html">RADIO
+                        <i class="fa-solid fa-tower-broadcast"></i></a></li>
+                <!-- <li class="nav-menu-item"><a class="nav-link nav-menu-link nav-menu_link-home"
+                        href="#imagen-del-dia">Peliculas</a></li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="./about.html">Anime</a>
+                </li>
+                <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="#contact">VideoJuegos</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div id="en-vivo">¡EN VIVO!</div>
+        </section>
+        <section class="events">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/theflash.jpeg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/the-martian.jpg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/JohnWick4.jpg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/shazam-2.jpg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/jocker2.jpg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/suzume.jpg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/Mariomovie.jpg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/jujutsu2.jpg" alt=""></div>
+                    <div class="swiper-slide"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolores molestiae? Dolorum ad iusto iste aliquid atque cumque sequi? Minima praesentium nam voluptatem accusantium beatae consequatur odio neque suscipit dolorum.</p><img src="./images/halo.jpg" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        </section>
+        <section class="imagen-del-dia" id="imagen-del-dia">
+            <h1>PROGRAMACION DE HOY</h1>
+            <img id="lunes" src="./images/Lunes.jpg" alt="Programacion del lunes">
+            <img id="martes" src="./images/martes.jpg" alt="Programacion del martes">
+            <img id="miercoles" src="./images/miercoles.jpg" alt="Programacion del miércoles">
+            <img id="jueves" src="./images/jueves.jpg" alt="Programacion del jueves">
+            <img id="viernes" src="./images/viernes.jpg" alt="Programacion del viernes">
+            <img id="sabado" src="./images/sabado.jpg" alt="Programacion del sábado">
+            <img id="domingo" src="./images/domingo.webp" alt="Programacion del domingo">
+        </section>
+
+    </main>
+    <script defer src="index.js"></script>
+    <footer>
+        <div id="contact" class="container-footer">
+            <div class="footer-info">
+                <h3>¡Contáctanos!</h3>
+                <p>Alex Rodriguez</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <p>Telefono: 555 555 5555</p>
+                <p>devf.alexrodriguez@gmail.com</p>
+            </div>
+            <div class="footer-social">
+                <h3>¡Síguenos en nuestras Redes Sociales!</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100081777163941" target="_blank"><i
+                                class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/interaccionmedios/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/@InterAccion_Medios" target="_blank"><i
+                                class="fab fa-youtube"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+
+</html>
